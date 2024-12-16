@@ -10,6 +10,9 @@
     #body {
         background-color: #f8f7f3;
     }
+    .container {
+        background-color: #f8f7f3 !important;
+    }
     html, body {
         margin: 0;
         padding: 0;
@@ -200,6 +203,9 @@
         font-style: normal;
     }
 @media (min-width:885px) and (max-width: 1200px) {
+    .container {
+        background-color: #f8f7f3;
+    }
     /* Display Settings */
     .lock1 {
         display: flex;
@@ -349,7 +355,10 @@
     }
 }
 @media (min-width:768px) and (max-width:884px)
-{
+{   
+    .container {
+        background-color: #f8f7f3;
+    }
     /* Display Settings */
     .lock1 {
         display: flex;
@@ -458,7 +467,10 @@
 
 }
 @media (max-width:767px)
-{
+{   
+    .container {
+        background-color: #f8f7f3;
+    }
         /* Display Settings */
     .lock1 {
         display: flex;
@@ -582,7 +594,10 @@
     }
 }
 @media (max-width:625px)
-{
+{   
+    .container {
+        background-color: #f8f7f3;
+    }
     .lock1 {
         display: flex;
     }
@@ -754,9 +769,106 @@
         width: 15rem !important;
     }
 }
-/* @media (max-width:499px) {
-
-} */
+@media (max-width:499px) {
+    .container {
+        background-color: #f8f7f3;
+    }
+    #body {
+        background-color: #f8f7f3;
+    }
+    .arrow-down-con {
+        padding-top: 17.5rem;
+    }
+    .detail-content {
+        top: 45% !important;
+    }
+    /* Sticky Sidebar */
+    .sticky-side {
+        padding: 0;
+        top: 50%;
+        right: -18%;
+    }
+    .sticky {
+        height: 10px !important;
+        text-align: center;
+    }
+    .image img {
+        width: 15rem !important;
+        height: 15rem !important;
+    }
+    .image1 {
+        position:relative;
+        padding-left: 14rem;
+    }
+    .text1 { top: 99% !important; 
+             left: 15% !important; }
+    .price {
+        /* position: relative; */
+        top: 1% !important;
+        left: 15% !important;
+    }
+    .image2 {
+        position: relative;
+        padding-left: 16rem !important;
+    }
+    .text2 { top: 98% !important; 
+             right: -0.3% !important; }
+    .price2 { top: 1% !important;
+              right: 2% !important; }
+    .image3 {
+        padding-left: 0.4rem;
+    }
+    .text3 {
+        top: 125% !important; 
+        left: -5% !important; 
+    }
+    .image4 {
+        padding-left: 17rem !important;
+    }
+    .text4 { top: 98% !important;
+             right: -2% !important; }
+    .image5 {
+        padding-left: 6rem;
+    }
+    .text5 { top: 125%   !important;
+             left: -4%!important; }
+    .image6 {
+        padding-left: 18rem !important;
+    }
+    .text6 { top: 98%    !important;
+             right: -3.7%!important; }
+    .image7 { 
+        padding-left: 6.3rem;
+    }
+    .text7 { top: 97%   !important;
+             left: -3.4%!important; }
+    .parg,.parg3 {
+        font-size: 10px !important;
+        position: relative;
+        top: -250% !important;
+        width: 100% !important;
+    }
+    .text1 h3,.text2 h3,.text3 h3,.text4 h3,.text5 h3,.text6 h3,.text7 h3 {
+        font-size: 14px !important;
+        position: relative;
+        top: -250% !important;
+    }
+    .button {
+        position: relative;
+        top: -300% !important;
+        height: 1rem !important;
+        width: 9rem !important;
+    }
+    .button a {
+        font-size: 10px !important;
+    }
+    .text1,.text2,.text3,.text4,.text5,.text6,.text7 {
+        width: 15rem !important;
+        color: white;
+        position: absolute;
+        height: 15.2rem !important;
+    }
+}
     .arrow-down-con {
         width: 2.5rem;
         margin-top: 26%;
