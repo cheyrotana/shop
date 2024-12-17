@@ -10,8 +10,8 @@
     #body {
         background-color: #f8f7f3;
     }
-    .container {
-        background-color: #f8f7f3 !important;
+    .Container {
+        background-color: #265A5B;
     }
     html, body {
         margin: 0;
@@ -62,10 +62,46 @@
         align-items: center;
         display: flex;
     }
-    a{
-        font-size: 16px;
-        color: #FFFFFF;
+    .menu, .contact, .room, .shop, .event,a {
         text-decoration: none;
+        font-size: 16px;
+        color: white;
+        position: relative;
+    }
+    .home{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        position: relative; 
+    }
+    .shop::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -5px; 
+        transform: translateX(-50%);
+        width: 70px;
+        height: 2px;
+        background-color: #d4b48f; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+    .menu::after, .home::after, .room::after, .contact::after, .event::after
+    ,.cart-content::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -5px; 
+        transform: translateX(-50%) scaleX(0); 
+        width: 50px; 
+        height: 2px;
+        background-color: #d4b48f;
+        border-radius: 10px; 
+        transition: transform 0.3s ease; 
+    }
+    .home:hover::after, .menu:hover::after, .contact:hover::after, 
+    .room:hover::after, .event:hover::after{
+        transform: translateX(-50%) scaleX(1); 
     }
     .fa-bars{
         font-size: 34px;
@@ -159,6 +195,9 @@
     .sticky{
         width: 100%;
         font-size: 14px;
+    }
+    .btn-block button:hover {
+        background-color: #265A5B;
     }
     .instagram-content{
         position: absolute;
