@@ -28,6 +28,7 @@
         height: 94.3%;
         background-color: #265A5B;
     }
+    
     .head-logo {
         font-family: 'Joanna Nova', serif;
         font-size: 3rem;
@@ -116,7 +117,7 @@
     .event::after {
         content: '';
         position: absolute;
-        left: 50%;
+        left: 47%;
         bottom: -5px; 
         transform: translateX(-50%);
         width: 40px;
@@ -769,6 +770,30 @@
         width: 15rem !important;
     }
 }
+@media (min-width:1524px) and (max-width:2490px)
+{
+    .price{
+        left: 50% !important;
+    }
+    .price2{
+        right: 10% !important;
+    }
+    .price3{
+        left: 5% !important;
+    }
+    .price4 {
+        right: 3% !important;
+    }
+    .price5 {
+        left: 10% !important;
+    }
+    .price6 {
+        right: 5%;
+    }
+    .price7 {
+        left:4%;
+    }
+}
 @media (max-width:499px) {
     .container {
         background-color: #f8f7f3;
@@ -877,7 +902,7 @@
     }
 
     .arrow-down {
-        animation: bounce 1s infinite;
+        /* animation: bounce 1s infinite; */
         display: block;
     }
     #body {
@@ -1175,7 +1200,7 @@
     .text6 { top: 30%; right: 53.1%; }
     .text7 { top: 30%; left: 50.9%; }
 
-    .price { top: 2%; left: 10%; }
+    .price { top: 2%; left: 13% !important; }
     .price2, .price5 { top: 2%; right: 13%; }
     .price3, .price6 { top: 2%; left: 10.5%; }
     .price4 { top: 2%; right: 13%; }
@@ -1315,7 +1340,7 @@
 
 /* this is image loading */
 .insta-loading{
-    height: 20px;
+    height: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
